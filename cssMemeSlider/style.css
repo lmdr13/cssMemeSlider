@@ -131,3 +131,26 @@ input[name='radio-btn'] {
     border-color: #fff;
 }
 
+@media screen and (max-width: 650px) {
+    .slider_panel {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 10vw;
+    }
+    .slider_description-wrapper {
+        margin-bottom: 5%;
+    }
+    .slider_description {
+        font-size: 3vw;
+    }
+    .slider_description-wrapper {
+        order: 2;
+        width: 100%;
+    }
+
+    .slider_control {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+}
